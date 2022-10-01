@@ -1,9 +1,11 @@
+import React from "react";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
+      <button className="btn btn-primary">Hello</button>
       <p>
         This project is coded by{" "}
         <a href="http://localhost:3000/">Kateryna Kravchuk</a> and is
