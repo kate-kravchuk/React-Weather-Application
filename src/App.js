@@ -8,7 +8,7 @@ function App() {
       <div className="container">
         <h1>Weather App</h1>
         <Weather />
-        <button className="btn btn-primary">Hello</button>
+
         <footer>
           This project is coded by{" "}
           <a href="http://localhost:3000/">Kateryna Kravchuk</a> and is
