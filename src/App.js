@@ -11,7 +11,7 @@ export default function App() {
         <footer>
           This project was coded by{" "}
           <a
-            href="http://localhost:3000/"
+            href="https://www.delac.io/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -19,7 +19,7 @@ export default function App() {
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/kate-kravchuk/React-Weather-Application"
+            href="https://github.com/wecodeschool/react-weather-app"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -27,7 +27,7 @@ export default function App() {
           </a>{" "}
           and{" "}
           <a
-            href="https://dancing-bombolone-f96cb7.netlify.app/"
+            href="https://suspicious-beaver-111c4d.netlify.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
