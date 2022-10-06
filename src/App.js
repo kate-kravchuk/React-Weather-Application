@@ -1,28 +1,40 @@
 import React from "react";
-import "./App.css";
 import Weather from "./Weather";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
         <Weather defaultCity="New York" />
 
         <footer>
-          This project is coded by{" "}
-          <a href="http://localhost:3000/">Kateryna Kravchuk</a> and is
+          This project was coded by{" "}
+          <a
+            href="http://localhost:3000/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Kateryna Kravchuk
+          </a>{" "}
+          and is{" "}
           <a
             href="https://github.com/kate-kravchuk/React-Weather-Application"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            {" "}
             open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://dancing-bombolone-f96cb7.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
           </a>
         </footer>
       </div>
     </div>
   );
 }
-
-export default App;
